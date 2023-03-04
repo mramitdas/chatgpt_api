@@ -37,7 +37,8 @@ The API has a single endpoint /generate which accepts a POST request with a JSON
 
 Example Request
 ===============
-.. code-block:: bash
+.. code-block:: http
+    
     POST /generate HTTP/1.1
     Host: localhost:8000
     Content-Type: application/json
@@ -49,7 +50,8 @@ Example Request
 
 Example Response
 ================
-.. code-block:: bash
+.. code-block:: http
+
     HTTP/1.1 200 OK
     Content-Type: text/plain
 
