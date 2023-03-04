@@ -13,19 +13,29 @@ This code provides an API endpoint that generates text based on prompts given by
 
 Download Repo
 =============
-- `Download url <https://github.com/mramitdas/chatgpt/archive/refs/heads/main.zip>`_
+- `Download url <https://github.com/mramitdas/chatgpt_api/archive/refs/heads/main.zip>`_
 
 
 Installation
 ============
 You can install the dependencies using the following command:
-    | $ pip install -r requirements.txt
+
+.. code-block:: bash
+
+    pip install -r requirements.txt
+
+.. end-code-block
 
 
 Usage
 =====
 To start the server, simply run the following command:
-    | $ python3 app.py
+
+.. code-block:: bash
+
+    python3 app.py
+
+.. end-code-block
 
 This will start the server on http://localhost:8000.
 
@@ -38,7 +48,7 @@ The API has a single endpoint /generate which accepts a POST request with a JSON
 Example Request
 ===============
 .. code-block:: http
-    
+
     POST /generate HTTP/1.1
     Host: localhost:8000
     Content-Type: application/json
@@ -60,8 +70,8 @@ Example Response
 
 References
 ==========
-- `FastAPI: <https://fastapi.tiangolo.com/>`_
-- `Uvicorn: <https://www.uvicorn.org/>`_
-- `Pydantic: <https://pydantic-docs.helpmanual.io/>`_
-- `Transformers: <https://huggingface.co/transformers/>`_
+- `FastAPI <https://fastapi.tiangolo.com/>`_
+- `Uvicorn <https://www.uvicorn.org/>`_
+- `Pydantic <https://pydantic-docs.helpmanual.io/>`_
+- `Transformers <https://huggingface.co/transformers/>`_
 
